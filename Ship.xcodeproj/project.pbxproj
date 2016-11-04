@@ -14,6 +14,8 @@
 		2960B2471DCC767A00CB13CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2960B2461DCC767A00CB13CD /* Assets.xcassets */; };
 		2960B24A1DCC767A00CB13CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2960B2481DCC767A00CB13CD /* LaunchScreen.storyboard */; };
 		2960B2551DCC767A00CB13CD /* ShipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960B2541DCC767A00CB13CD /* ShipTests.m */; };
+		2960B2651DCC769700CB13CD /* Luffy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960B2611DCC769700CB13CD /* Luffy.m */; };
+		2960B2661DCC769700CB13CD /* Nami.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960B2641DCC769700CB13CD /* Nami.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		2960B2501DCC767A00CB13CD /* ShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2960B2541DCC767A00CB13CD /* ShipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShipTests.m; sourceTree = "<group>"; };
 		2960B2561DCC767A00CB13CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2960B2601DCC769700CB13CD /* Luffy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Luffy.h; sourceTree = "<group>"; };
+		2960B2611DCC769700CB13CD /* Luffy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Luffy.m; sourceTree = "<group>"; };
+		2960B2631DCC769700CB13CD /* Nami.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nami.h; sourceTree = "<group>"; };
+		2960B2641DCC769700CB13CD /* Nami.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nami.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		2960B2391DCC767A00CB13CD /* Ship */ = {
 			isa = PBXGroup;
 			children = (
+				2960B25F1DCC769700CB13CD /* Luffy */,
+				2960B2621DCC769700CB13CD /* Nami */,
 				2960B23D1DCC767A00CB13CD /* AppDelegate.h */,
 				2960B23E1DCC767A00CB13CD /* AppDelegate.m */,
 				2960B2401DCC767A00CB13CD /* ViewController.h */,
@@ -109,6 +117,24 @@
 				2960B2561DCC767A00CB13CD /* Info.plist */,
 			);
 			path = ShipTests;
+			sourceTree = "<group>";
+		};
+		2960B25F1DCC769700CB13CD /* Luffy */ = {
+			isa = PBXGroup;
+			children = (
+				2960B2601DCC769700CB13CD /* Luffy.h */,
+				2960B2611DCC769700CB13CD /* Luffy.m */,
+			);
+			path = Luffy;
+			sourceTree = "<group>";
+		};
+		2960B2621DCC769700CB13CD /* Nami */ = {
+			isa = PBXGroup;
+			children = (
+				2960B2631DCC769700CB13CD /* Nami.h */,
+				2960B2641DCC769700CB13CD /* Nami.m */,
+			);
+			path = Nami;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2960B2661DCC769700CB13CD /* Nami.m in Sources */,
+				2960B2651DCC769700CB13CD /* Luffy.m in Sources */,
 				2960B2421DCC767A00CB13CD /* ViewController.m in Sources */,
 				2960B23F1DCC767A00CB13CD /* AppDelegate.m in Sources */,
 				2960B23C1DCC767A00CB13CD /* main.m in Sources */,
