@@ -80,7 +80,7 @@ shipshipshipshipshipshipshipshipshipshipshipshipshipshipshipshipshipshipshipship
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/AzraelWang/Ship", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/AzraelWang/Ship.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
